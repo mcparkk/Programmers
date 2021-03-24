@@ -1,0 +1,7 @@
+C:\Users\pmc02\Desktop\ConsoleApp2\BAEKJOON\bin\Debug\BAEKJOON.exe.config
+C:\Users\pmc02\Desktop\ConsoleApp2\BAEKJOON\bin\Debug\BAEKJOON.exe
+C:\Users\pmc02\Desktop\ConsoleApp2\BAEKJOON\bin\Debug\BAEKJOON.pdb
+C:\Users\pmc02\Desktop\ConsoleApp2\BAEKJOON\obj\Debug\BAEKJOON.csprojAssemblyReference.cache
+C:\Users\pmc02\Desktop\ConsoleApp2\BAEKJOON\obj\Debug\BAEKJOON.csproj.CoreCompileInputs.cache
+C:\Users\pmc02\Desktop\ConsoleApp2\BAEKJOON\obj\Debug\BAEKJOON.exe
+C:\Users\pmc02\Desktop\ConsoleApp2\BAEKJOON\obj\Debug\BAEKJOON.pdb
