@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BAEKJOON
 {
-    class Program
+    class BaekJoon
     {
         static void Main(string[] args)
         {

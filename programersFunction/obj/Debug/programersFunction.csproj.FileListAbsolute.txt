@@ -10,3 +10,9 @@ C:\Users\pmc02\Desktop\ConsoleApp2\programersFunction\obj\Debug\programersFuncti
 C:\Users\pmc02\Desktop\ConsoleApp2\programersFunction\obj\Debug\programersFunction.dll
 C:\Users\pmc02\Desktop\ConsoleApp2\programersFunction\obj\Debug\programersFunction.pdb
 C:\Users\pmc02\Desktop\ConsoleApp2\programersFunction\obj\Debug\programersFunction.csprojAssemblyReference.cache
+C:\Users\pmc02\Desktop\Programmers\programersFunction\bin\Debug\programersFunction.dll
+C:\Users\pmc02\Desktop\Programmers\programersFunction\bin\Debug\programersFunction.pdb
+C:\Users\pmc02\Desktop\Programmers\programersFunction\obj\Debug\programersFunction.csproj.CoreCompileInputs.cache
+C:\Users\pmc02\Desktop\Programmers\programersFunction\obj\Debug\programersFunction.dll
+C:\Users\pmc02\Desktop\Programmers\programersFunction\obj\Debug\programersFunction.pdb
+C:\Users\pmc02\Desktop\Programmers\programersFunction\obj\Debug\programersFunction.csprojAssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using programersFunction.codingtestPractice;
+using programersFunction.codingtestPractice.Level2;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -17,6 +18,63 @@ namespace programersMain
 
         static void Main(string[] args)
         {
+            // 월간코드 챌린지 
+            Triangular_snail triangular_Snail = new Triangular_snail();
+            int n = 10;
+            int[] result = triangular_Snail.solution(n);
+
+            //레벨2 스킬트리
+            //SkillTree SkillTree = new SkillTree();
+            //string skill = "CBD";
+            //string[] skill_trees = { "BACDE", "CBADF", "AECB", "BDA" };
+            //int answer = SkillTree.solution(skill, skill_trees);
+            //2
+
+            //string skill1 = "CBD";
+            //string[] skill_trees1 = { "CAD" };
+            //int answer1 = SkillTree.solution(skill1, skill_trees1);
+            //0
+
+            //string skill2 = "CBD";
+            //string[] skill_trees2 = { "AEF", "ZJW" };
+            //int answer2 = SkillTree.solution(skill2, skill_trees2);
+            //2
+
+            //string skill3 = "REA";
+            //string[] skill_trees3 = { "REA", "POA" };
+            //int answer3 = SkillTree.solution(skill3, skill_trees3);
+            ////1
+
+            //string skill4 = "CBDK";
+            //string[] skill_trees4 = { "CB", "CXYB", "BD", "AECD", "ABC", "AEX", "CDB", "CBKD", "IJCB", "LMDK" };
+            //int answer4 = SkillTree.solution(skill4, skill_trees4);
+            ////4
+
+            //string skill5 = "BDC";
+            //string[] skill_trees5 = { "AAAABACA" };
+            //int answer5 = SkillTree.solution(skill5, skill_trees5);
+            ////0
+
+            //string skill6 = "CBD";
+            //string[] skill_trees6 = { "C", "D", "CB", "BDA" };
+            //int answer6 = SkillTree.solution(skill6, skill_trees6);
+            //2
+
+            //레벨2 다리를 지나는 트럭 
+            //Truct_Passing_Bridge truct_Passing_Bridge = new Truct_Passing_Bridge();
+            //int bridge_length = 2;
+            //int weight = 10;
+            //int[] truck_weights = { 7, 4, 5, 6 };
+            //int result = truct_Passing_Bridge.solution(bridge_length, weight, truck_weights);
+
+            //레벨2 큰수 만들기
+            //Create_Large_Number create_Large_number = new Create_Large_Number();
+            //string num = "4177252841";
+            //int k = 4;
+            //string answer1 = create_Large_number.Failsolution(num, k);
+            //string answer2 = create_Large_number.Failsolution2(num, k);
+            //string answer3 = create_Large_number.Anothersolution(num, k);
+            //string answer4 = create_Large_number.solution(num, k);
 
             //nhn 3번 문자열처리   
             //RG(B(2G))->RG(B(GG)) RG(BGBG)->RGBGGGBGG
@@ -29,9 +87,8 @@ namespace programersMain
             //레벨1 예산
             //lv1_budge lv1_Budge = new lv1_budge();
             //int[] input = { 1, 3, 2, 5, 4 };
-            //int budge = 9;  
+            //int budge = 9;
             //int result = lv1_Budge.solution(input, budge);
-
 
             //레벨1 제일 작은 수 제거하기 
             //lv1_deleteLowest lv1_DeleteLowest = new lv1_deleteLowest();

@@ -41,21 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="codingtestPractice\lv1_budge.cs" />
-    <Compile Include="codingtestPractice\lv1_ChoiceAndPlus.cs" />
-    <Compile Include="codingtestPractice\lv1_cipher.cs" />
-    <Compile Include="codingtestPractice\lv1_deleteLowest.cs" />
-    <Compile Include="codingtestPractice\lv1_Greedy_gymClothes.cs" />
-    <Compile Include="codingtestPractice\lv1_kNumber.cs" />
-    <Compile Include="codingtestPractice\Lv1_mockTest.cs" />
-    <Compile Include="codingtestPractice\lv1_primeNumber.cs" />
-    <Compile Include="codingtestPractice\lv1_StrangeString.cs" />
-    <Compile Include="codingtestPractice\lv1_stringBasics.cs" />
-    <Compile Include="codingtestPractice\lv1_ternary.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_budge.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_ChoiceAndPlus.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_cipher.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_deleteLowest.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_Greedy_gymClothes.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_kNumber.cs" />
+    <Compile Include="codingtestPractice\Level1\Lv1_mockTest.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_primeNumber.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_StrangeString.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_stringBasics.cs" />
+    <Compile Include="codingtestPractice\Level1\lv1_ternary.cs" />
+    <Compile Include="codingtestPractice\Level2\Create_Large_Number.cs" />
+    <Compile Include="codingtestPractice\Level2\SkillTree.cs" />
+    <Compile Include="codingtestPractice\Level2\Triangular_snail.cs" />
+    <Compile Include="codingtestPractice\Level2\Truct_Passing_Bridge.cs" />
     <Compile Include="codingtestPractice\nhn_stringOperation.cs" />
     <Compile Include="codingtestPractice\nhn_stringOperToStack.cs" />
     <Compile Include="skillTest\Level2.cs" />
-    <Compile Include="codingtestPractice\lv2_fucnDev.cs" />
+    <Compile Include="codingtestPractice\Level2\lv2_fucnDev.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

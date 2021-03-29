@@ -18,3 +18,13 @@ C:\Users\pmc02\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\programersMain.csproj.C
 C:\Users\pmc02\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\programersMain.csproj.CopyComplete
 C:\Users\pmc02\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\pmc02\Desktop\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\pmc02\Desktop\Programmers\programersMain\bin\Debug\ConsoleApp2.exe.config
+C:\Users\pmc02\Desktop\Programmers\programersMain\bin\Debug\ConsoleApp2.exe
+C:\Users\pmc02\Desktop\Programmers\programersMain\bin\Debug\ConsoleApp2.pdb
+C:\Users\pmc02\Desktop\Programmers\programersMain\bin\Debug\programersFunction.dll
+C:\Users\pmc02\Desktop\Programmers\programersMain\bin\Debug\programersFunction.pdb
+C:\Users\pmc02\Desktop\Programmers\programersMain\obj\Debug\programersMain.csprojAssemblyReference.cache
+C:\Users\pmc02\Desktop\Programmers\programersMain\obj\Debug\programersMain.csproj.CoreCompileInputs.cache
+C:\Users\pmc02\Desktop\Programmers\programersMain\obj\Debug\programersMain.csproj.CopyComplete
+C:\Users\pmc02\Desktop\Programmers\programersMain\obj\Debug\ConsoleApp2.exe
+C:\Users\pmc02\Desktop\Programmers\programersMain\obj\Debug\ConsoleApp2.pdb
