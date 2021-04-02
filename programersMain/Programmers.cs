@@ -1,4 +1,5 @@
 ﻿using programersFunction.codingtestPractice;
+using programersFunction.codingtestPractice.Level1;
 using programersFunction.codingtestPractice.Level2;
 using System;
 using System.Collections.Generic;
@@ -18,10 +19,21 @@ namespace programersMain
 
         static void Main(string[] args)
         {
+            // 프로그래머스 데모 테스트
+            BackEndTestDemo backEndTestDemo = new BackEndTestDemo();
+            int[,] v = { { 1, 4 }, { 3, 4 }, { 3, 10 } };
+            var result = backEndTestDemo.solution(v);
+
+            // 레벨2 타겟넘버 
+            //TargetNumber targetNumber = new TargetNumber();
+            //int[] numbers = { 1, 1, 1, 1, 1 };
+            //int target = 3;
+            //int result = targetNumber.solution2(numbers, target);
+
             // 월간코드 챌린지 
-            Triangular_snail triangular_Snail = new Triangular_snail();
-            int n = 10;
-            int[] result = triangular_Snail.solution(n);
+            //Triangular_snail triangular_Snail = new Triangular_snail();
+            //int n = 10;
+            //int[] result = triangular_Snail.solution(n);
 
             //레벨2 스킬트리
             //SkillTree SkillTree = new SkillTree();

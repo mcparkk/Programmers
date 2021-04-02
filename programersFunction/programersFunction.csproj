@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="codingtestPractice\Level1\BackEndTestDemo.cs" />
     <Compile Include="codingtestPractice\Level1\lv1_budge.cs" />
     <Compile Include="codingtestPractice\Level1\lv1_ChoiceAndPlus.cs" />
     <Compile Include="codingtestPractice\Level1\lv1_cipher.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="codingtestPractice\Level1\lv1_ternary.cs" />
     <Compile Include="codingtestPractice\Level2\Create_Large_Number.cs" />
     <Compile Include="codingtestPractice\Level2\SkillTree.cs" />
+    <Compile Include="codingtestPractice\Level2\TargetNumber.cs" />
     <Compile Include="codingtestPractice\Level2\Triangular_snail.cs" />
     <Compile Include="codingtestPractice\Level2\Truct_Passing_Bridge.cs" />
     <Compile Include="codingtestPractice\nhn_stringOperation.cs" />
