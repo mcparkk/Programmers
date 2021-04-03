@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="codingtestPractice\2021_BackEndDevMat\Test1.cs" />
+    <Compile Include="codingtestPractice\2021_BackEndDevMat\Test2.cs" />
     <Compile Include="codingtestPractice\Level1\BackEndTestDemo.cs" />
     <Compile Include="codingtestPractice\Level1\lv1_budge.cs" />
     <Compile Include="codingtestPractice\Level1\lv1_ChoiceAndPlus.cs" />
@@ -58,6 +60,7 @@
     <Compile Include="codingtestPractice\Level2\TargetNumber.cs" />
     <Compile Include="codingtestPractice\Level2\Triangular_snail.cs" />
     <Compile Include="codingtestPractice\Level2\Truct_Passing_Bridge.cs" />
+    <Compile Include="codingtestPractice\Meister\GameMap.cs" />
     <Compile Include="codingtestPractice\nhn_stringOperation.cs" />
     <Compile Include="codingtestPractice\nhn_stringOperToStack.cs" />
     <Compile Include="skillTest\Level2.cs" />

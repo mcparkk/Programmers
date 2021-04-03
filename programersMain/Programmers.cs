@@ -8,7 +8,8 @@ using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using programersFunction.codingtestPractice.Meister;
+using programersFunction.codingtestPractice._2021_BackEndDevMat;
 
 namespace programersMain
 
@@ -19,10 +20,28 @@ namespace programersMain
 
         static void Main(string[] args)
         {
+            // Test 2
+            Test2 test2 = new Test2();
+            int rows = 6;
+            int columns = 6;
+            int[,] queries = { { 2, 2, 5, 4}};
+            int[] result = test2.solution(rows, columns, queries);
+
+            // Test 1 
+            //int[] lottos = { 44, 1, 0, 0, 31, 25 };
+            //int[] winNum = { 31, 10, 45, 1, 6, 19 };
+            //Test1 test1 = new Test1();
+            //int[] result = test1.solution(lottos, winNum);
+            
+            // 프로그래머스 게임 맵 최단거리 
+            //GameMap gameMap = new GameMap();
+            //int[,] maps = { { 1, 0, 1, 1, 1 }, { 1, 0, 1, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1, 1, 1, 0, 1 }, { 0, 0, 0, 0, 1 } };
+            //int answer = gameMap.solution(maps);
+
             // 프로그래머스 데모 테스트
-            BackEndTestDemo backEndTestDemo = new BackEndTestDemo();
-            int[,] v = { { 1, 4 }, { 3, 4 }, { 3, 10 } };
-            var result = backEndTestDemo.solution(v);
+            //BackEndTestDemo backEndTestDemo = new BackEndTestDemo();
+            //int[,] v = { { 1, 4 }, { 3, 4 }, { 3, 10 } };
+            //var result = backEndTestDemo.solution(v);
 
             // 레벨2 타겟넘버 
             //TargetNumber targetNumber = new TargetNumber();
@@ -109,7 +128,7 @@ namespace programersMain
 
             //레벨1 3진법 뒤집기 
             //lv1_ternary lv1_Ternary = new lv1_ternary();
-            //int n = 1;
+            //izt n = 1;
             //int result = lv1_Ternary.solution(n);
 
             //레벨1 두 숫자 뽑아서 더하기 
