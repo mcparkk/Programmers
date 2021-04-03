@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using programersFunction.codingtestPractice.Meister;
-using programersFunction.codingtestPractice._2021_BackEndDevMat;
+
 
 namespace programersMain
 
@@ -21,11 +21,11 @@ namespace programersMain
         static void Main(string[] args)
         {
             // Test 2
-            Test2 test2 = new Test2();
-            int rows = 6;
-            int columns = 6;
-            int[,] queries = { { 2, 2, 5, 4}};
-            int[] result = test2.solution(rows, columns, queries);
+            //Test2 test2 = new Test2();
+            //int rows = 6;
+            //int columns = 6;
+            //int[,] queries = { { 2, 2, 5, 4}};
+            //int[] result = test2.solution(rows, columns, queries);
 
             // Test 1 
             //int[] lottos = { 44, 1, 0, 0, 31, 25 };
