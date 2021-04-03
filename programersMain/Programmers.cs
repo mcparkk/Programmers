@@ -20,19 +20,7 @@ namespace programersMain
 
         static void Main(string[] args)
         {
-            // from DeskTop push
-            int g = 0;
-            int h = 0;
-            // from macbook for 터미널
-            int e = 0;
-            int f = 0;
-            // from desktop 
-            int d = 0;
-            int c = 0;
-            // from macbook
-            int a = 0;
-            int b = 0;
-            
+                       
             // Test 2
             //Test2 test2 = new Test2();
             //int rows = 6;
