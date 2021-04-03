@@ -20,6 +20,10 @@ namespace programersMain
 
         static void Main(string[] args)
         {
+
+            // from desktop 
+            int d = 0;
+            int c = 0;
             // from macbook
             int a = 0;
             int b = 0;
