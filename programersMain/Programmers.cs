@@ -20,7 +20,7 @@ namespace programersMain
 
         static void Main(string[] args)
         {
-                       
+
             // Test 2
             //Test2 test2 = new Test2();
             //int rows = 6;
@@ -35,14 +35,14 @@ namespace programersMain
             //int[] result = test1.solution(lottos, winNum);
 
             // 프로그래머스 게임 맵 최단거리 
-            //GameMap gameMap = new GameMap();
-            //int[,] maps = { { 1, 0, 1, 1, 1 }, { 1, 0, 1, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1, 1, 1, 0, 1 }, { 0, 0, 0, 0, 1 } };
-            //int answer = gameMap.solution(maps);
+            GameMap gameMap = new GameMap();
+            int[,] maps = { { 1, 0, 1, 1, 1 }, { 1, 0, 1, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1, 1, 1, 0, 1 }, { 0, 0, 0, 0, 1 } };
+            int answer = gameMap.solution(maps);
 
             // 프로그래머스 데모 테스트
-            BackEndTestDemo backEndTestDemo = new BackEndTestDemo();
-            int[,] v = { { 1, 4 }, { 3, 4 }, { 3, 10 } };
-            var result = backEndTestDemo.solution(v);
+            //BackEndTestDemo backEndTestDemo = new BackEndTestDemo();
+            //int[,] v = { { 1, 4 }, { 3, 4 }, { 3, 10 } };
+            //var result = backEndTestDemo.solution(v);
 
             // 레벨2 타겟넘버 
             //TargetNumber targetNumber = new TargetNumber();
