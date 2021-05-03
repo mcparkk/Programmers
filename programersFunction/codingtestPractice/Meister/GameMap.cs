@@ -23,15 +23,16 @@ namespace programersFunction.codingtestPractice.Meister
         {
             mapsXLength = maps.GetLength(1);
             mapsYLength = maps.GetLength(0);
-            int answer = FineRoad(maps, 0, 0, mapsXLength, mapsYLength, searchingIndex, 0);
-            answer = answer > 0 ? answer : -1;
+            int answer = 0;
+            FineRoad(maps, 0, 0, mapsXLength, mapsYLength, searchingIndex, 0);
+            
             return answer;
         }
 
-        public int FineRoad(int[,] maps, int nowXIndex, int nowYIndex, int xlen, int ylen, int[][,] nextIndex , int answerCount)
+        public void FineRoad(int[,] maps, int nowXIndex, int nowYIndex, int xlen, int ylen, int[][,] nextIndex , int answerCount)
         {
             if (nowXIndex == xlen && nowYIndex == ylen)
-                return answerCount;
+                return;
             else
             {
                 maps[nowXIndex, nowYIndex] = 2;
@@ -50,7 +51,7 @@ namespace programersFunction.codingtestPractice.Meister
                         FineRoad(maps, nextSearchXIndex, nextSearchYIndex, xlen, ylen, nextIndex, answerCount);
                     }
                 }
-                return answerCount;
+                return;
             }
         }
     }
