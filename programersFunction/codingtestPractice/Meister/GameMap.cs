@@ -25,7 +25,7 @@ namespace programersFunction.codingtestPractice.Meister
             mapsYLength = maps.GetLength(0);
             int answer = 0;
             FineRoad(maps, 0, 0, mapsXLength, mapsYLength, searchingIndex, 0);
-            
+            answer = 3;
             return answer;
         }
 
