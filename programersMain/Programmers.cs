@@ -9,7 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using programersFunction.codingtestPractice.Meister;
-
+using programersFunction.codingtestPractice._2021_BackEndDevMat;
+using programersFunction.Monthly_Code_Challenge;
 
 namespace programersMain
 
@@ -21,11 +22,33 @@ namespace programersMain
         static void Main(string[] args)
         {
 
+            //배달 
+            Delivery delivery = new Delivery();
+            //int n = 5;
+            //int[,] road = { { 1, 2, 1 }, { 2, 3, 3 }, { 5, 2, 2 }, { 1, 4, 2 }, { 5, 3, 1 }, { 5, 4, 2 } };
+            //int k = 3;
+            int n = 6;
+            int k = 4;
+            int[,] road = { { 1, 2, 1 }, { 1, 3, 2 }, { 2, 3, 2 }, { 3, 4, 3 }, { 3, 5, 2 }, { 3, 5, 3 }, { 5, 6, 1 } };
+            int result = delivery.solution(n,road,k); 
+
+            //괄호 회전하기 
+            //bracketTrun bracketTrun = new bracketTrun();
+            //string s = "[](){}";
+            //int result = bracketTrun.solution(s);
+
+            // N으로 표현 
+            //NExpression nExpression = new NExpression();
+            //int n = 2;
+            //int number = 11;
+            //int result = nExpression.solution(n, number);
+
             // Test 2
             //Test2 test2 = new Test2();
-            //int rows = 6;
-            //int columns = 6;
-            //int[,] queries = { { 2, 2, 5, 4}};
+            //int rows = 3;
+            //int columns = 3;
+            ////int[,] queries = { { 1, 1, 2, 2 },{ 1, 2, 2, 3 },{ 2, 1, 3, 2 },{ 2, 2, 3, 3 }};
+            //int[,] queries = { { 1, 1, 3, 3 }};
             //int[] result = test2.solution(rows, columns, queries);
 
             // Test 1 
@@ -35,9 +58,9 @@ namespace programersMain
             //int[] result = test1.solution(lottos, winNum);
 
             // 프로그래머스 게임 맵 최단거리 
-            GameMap gameMap = new GameMap();
-            int[,] maps = { { 1, 0, 1, 1, 1 }, { 1, 0, 1, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1, 1, 1, 0, 1 }, { 0, 0, 0, 0, 1 } };
-            int answer = gameMap.solution(maps);
+            //GameMap gameMap = new GameMap();
+            //int[,] maps = { { 1, 0, 1, 1, 1 }, { 1, 0, 1, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1, 1, 1, 0, 1 }, { 0, 0, 0, 0, 1 } };
+            //int answer = gameMap.solution(maps);
 
             // 프로그래머스 데모 테스트
             //BackEndTestDemo backEndTestDemo = new BackEndTestDemo();
